@@ -1,3 +1,4 @@
-import '../styles/index.scss';
+let carIds = [100, 200, 300];
+let[car1,car2, ...theRest]= carIds;
 
-console.log('webpack starterkit');
+console.log(car1,car2, theRest);
